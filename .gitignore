@@ -1,0 +1,32 @@
+# Local secrets and credentials; placeholders may be versioned.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Machine-local state and disposable execution artifacts.
+/.local/
+/.runtime/
+/.work/
+/.cache/
+/.venv/
+
+# Common dependency/build outputs; keep source and lockfiles tracked.
+node_modules/
+/dist/
+/build/
+coverage/
+__pycache__/
+*.pyc
+
+# Editor and OS-local files.
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Private authoring sources are NOT globally ignored.
+# Store them in the approved private GitHub scope; never export them to learner repos.
